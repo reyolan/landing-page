@@ -17,6 +17,7 @@ ul {
     display:flex;
     font-size:18px;
     color:#E5E7EB;
+    gap:15px;
 }
 
 a {
@@ -28,14 +29,24 @@ h1, h3, section p {
     color:#F9FAF8;
 }
 
+h1 {
+    font-weight:800;
+    font-size: 48px;
+}
+
 h2 {
     text-align:center;
 }
 
 header {
     background-color:#1F2937;
+    padding: 15px 0px;
 }
 
+.hero img {
+    width:500px;
+    height:300px;
+}
 footer {
     display:flex;
     background-color: #1F2937;
@@ -72,9 +83,16 @@ section {
 }
 .logo-nav {
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
+    align-items:center;
+    gap:610px;
 }
 
+.logo-header {
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight:700;
+}
 .hero {
     display:flex;
     flex-direction:column;
@@ -82,8 +100,20 @@ section {
     flex-wrap:wrap;
     align-content:center;
     justify-content:center;
+    gap:50px;
+    margin: 120px 0px;
 }
 
+.hero-text {
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    gap:10px;
+}
+
+.hero-text p {
+    color:#E5E7EB;
+}
 .four-info {
     display:flex;
     justify-content:center;
