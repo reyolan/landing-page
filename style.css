@@ -82,10 +82,14 @@ button {
 .hero-text button {
     border: 0px;
     margin-top:8px;
+    font-size:18px;
+    font-weight:700;
 }
 
 .call-action button {
     border: 3px solid #F9FAF8;
+    font-size:18px;
+    font-weight:700;
 }
 
 blockquote {
@@ -132,6 +136,7 @@ figcaption{
 
 .hero-text p {
     color:#E5E7EB;
+    font-size:18px;
 }
 
  
