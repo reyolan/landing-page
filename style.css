@@ -47,6 +47,11 @@ header {
     width:500px;
     height:300px;
 }
+
+.info img {
+    width:172.8px;
+    height:216px;
+}
 footer {
     display:flex;
     background-color: #1F2937;
@@ -85,13 +90,13 @@ section {
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:610px;
+    gap:700px;
 }
 
-.logo-header {
-    font-size:24px;
-    color:#F9FAF8;
-    font-weight:700;
+.logo-nav img{
+    width:60px;
+    height:60px;
+    
 }
 .hero {
     display:flex;
@@ -100,14 +105,14 @@ section {
     flex-wrap:wrap;
     align-content:center;
     justify-content:center;
-    gap:50px;
+    gap:80px;
     margin: 120px 0px;
 }
 
 .hero-text {
     display:flex;
     flex-direction:column;
-    width:400px;
+    width:350px;
     gap:10px;
 }
 
@@ -127,6 +132,7 @@ section {
 
 .info img {
     border-radius: 10px;
+    border: 3px solid #3882F6;
 }
 
 .quote {
